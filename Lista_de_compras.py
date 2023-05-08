@@ -21,7 +21,7 @@ while True:
             print('Por favor digite número int.')
         except IndexError:
             print('Índice não existe na lista')
-        except Exception:
+        except Exception: # Feito para tratar algum erro desconhecido
             print('Erro desconhecido')
     elif opcao == 'l':
         os.system('cls')
